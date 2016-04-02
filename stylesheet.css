@@ -1,0 +1,245 @@
+/*****************************************
+	Defaults
+*****************************************/
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+h1 {
+	font-family: "Rye", cursive, Helvetica, Arial, sans-serif;
+	font-size: 56pt;
+	text-align: center;
+	margin-bottom: 4%;
+	color: #FFF;
+	text-shadow: -7px -5px 2px rgba(0, 0, 0, 0.9);
+	letter-spacing: 0.5em;
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: 36px;
+	}
+h3, h4 {
+	padding-top: 2%;
+	padding-left: 2%;
+}
+ul, li {
+	display: inline;
+	color: rgba(75,85,212,1.00);
+	padding: 15px;
+}
+nav {
+	height: 3%;
+	padding-bottom: 60px;
+	padding-top: 5px;
+	display: inline;
+}
+header {
+	background-color: rgba(107,142,222,.5);
+	padding-top: 0.25%;
+	margin-bottom: 20px;
+}
+.logo {
+	margin-left: 6%;
+	margin-top: 6%;
+	width: 10%;
+	display: inline-block;
+	padding-top: 0%;
+}
+.top {
+	float: top;
+	margin-bottom: 20px;
+}
+a {
+	text-decoration: none;
+	color: rgba(23,83,174,1.00);
+	margin: 5px 5px 5px 5px;
+	font-family: "Gill Sans Bold", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, 	Arial, sans-serif;
+	font-size: 16pt;
+}
+a:active {
+	background-color: rgba(89,158,239,1.00);
+}	
+a:visited {
+	color: rgba(3,59,117,1.00);
+}
+h2 {
+	font-family: "Imprima", Helvetica, Times New Roman, Arial, sans-serif;
+	font-size: 2em;
+	padding-top: 20px;
+	margin: 10px auto;
+}
+li, p {
+	font-family: Helvetica, Times New Roman, Arial, sans-serif;
+	font-size: 14pt;
+	line-height: 24px;
+	font-weight: normal;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+h2, p {
+	padding-left: 2%;
+}
+p {
+	width: 75%;
+}
+.email {
+	color: rgba(0,110,186,1.00);
+}
+footer {
+	padding: 20px 15px;
+}
+footer p {
+	display: inline-block;
+	text-align: left;
+	background-color: rgba(0,110,186,.4);
+	color: rgba(0,110,186,1.00);
+	padding-top: 40px;
+	padding-bottom: 30px;
+	font-size: 14pt;
+	width: 96%;
+	padding-right: 2%;
+}
+
+/*****************************************
+	index.html
+*****************************************/
+.background_one {
+	background-image: url(images/background1.jpg);
+	background-repeat: repeat;
+}
+
+.gallery {
+	display: flex;
+	width: 100%;
+	list-style: none;
+	background-color: rgba(0,0,0,0,0.75);
+	margin-top: 20px;
+}
+.gallery img {
+	width: 10%;
+	height: 10%;
+	padding-left: 1%;
+	padding-right: 1%;
+	display: inline-block;
+}
+
+/*****************************************
+	gallery.html
+*****************************************/
+.background_two {
+	background-image: url(images/background2.jpg);
+	background-repeat: repeat;
+}
+.horizontal, .horizontal_four, .h_three, .h_four, .h_first, .h_last {
+	height: 138px;
+	width: 212px;
+	}
+.horizontal_three {
+	width: 300px;
+	}
+.horizontal_four {
+	padding-left: 5px;
+	}
+.h_first, .h_three, .h_four {
+	padding-left: 2%;
+}
+ .h_last {
+	padding-bottom: -18px;
+	padding-right: 40%;
+}
+.vertical, .vertical_two, .vertical_three {
+	height: 220px;
+	width: 152px;
+	padding-bottom: -10px;
+}
+.vertical {
+	padding-right: 20%;
+}
+.vertical_two {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.vertical_three {
+	padding-left: 2%;
+}
+/*****************************************
+	drawings.html
+*****************************************/
+.background_three {
+	background-image: url(images/background3.jpg);
+	background-repeat: repeat;
+}
+.v_first {
+	height: 220px;
+	width: 152px;
+	padding-left: 2%;
+}
+.v_one {
+	height: 220px;
+	width: 152px;
+}
+.horizontal_one, .horizontal_two {
+	height: 224px;
+	width: 388px;
+}
+.horizontal_one {
+	padding-left: 2%;
+}
+
+/*****************************************
+	photography.html
+*****************************************/
+.background_one {
+	background-image: url(images/background4.jpg);
+	background-repeat: repeat;
+}
+.photo_one, .photo_first {
+	height: 204px;
+	width: 300px;
+}
+.photo_first {
+	padding-left: 2%;
+}
+.photo_two {
+	height: 222px;
+	width: 203px;
+}
+.photo_three {
+	height: 223px;
+	width: 190px;
+}
+
+
+/*****************************************
+	contact.html
+*****************************************/
+.background_five {
+	background-image: url(images/background5.jpg);
+	background-repeat: repeat;
+}
+.button {
+	border-radius: 1em;
+	box-shadow: 2px 2px 2px #000;
+	margin-left: 100px;
+	padding: 5px;
+	color: #fff;
+	background-color: rgba(0,110,186,1.00);
+}
+/*****************************************
+	video.html
+*****************************************/
+.video1 {
+	padding-left: 5px;
+	display: block;
+	}
+.video2 {
+	display: block;
+	padding-left: 5px;
+	}
+.video3 {
+	display: block;
+	padding-left: 5px;
+	}
+/*****************************************
+	video.html
+*****************************************/
