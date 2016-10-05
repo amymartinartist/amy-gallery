@@ -45,10 +45,6 @@ header {
 	display: inline-block;
 	padding-top: 0%;
 }
-.top {
-	float: top;
-	margin-bottom: 20px;
-}
 a {
 	text-decoration: none;
 	color: rgba(23,83,174,1.00);
@@ -79,6 +75,9 @@ li, p {
 h2, p {
 	padding-left: 2%;
 }
+h3 {
+	padding: 10px;
+	}
 p {
 	width: 75%;
 }
@@ -203,6 +202,7 @@ footer p {
 .photo_two {
 	height: 222px;
 	width: 203px;
+	padding-left: 2%;
 }
 .photo_three {
 	height: 223px;
@@ -225,20 +225,33 @@ footer p {
 	color: #fff;
 	background-color: rgba(0,110,186,1.00);
 }
+.form-text {
+	display: block;
+	float: left;
+	padding-top: 8px;
+	padding-left: 5px;
+	}
+textarea {
+	resize: none;
+	overflow-y: hidden;
+	}
+input {
+	padding: 5px;
+	}
 /*****************************************
 	video.html
 *****************************************/
 .video1 {
-	padding-left: 5px;
+	padding-left: 2%;
 	display: block;
 	}
 .video2 {
 	display: block;
-	padding-left: 5px;
+	padding-left: 2%;
 	}
 .video3 {
 	display: block;
-	padding-left: 5px;
+	padding-left: 2%;
 	}
 /*****************************************
 	video.html
