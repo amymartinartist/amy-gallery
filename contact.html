@@ -25,14 +25,14 @@
 <body class="background_five">
 <h2>Contact</h2>
  <p><em>To contact Amy Martin, please fill out the form below.</em></p>
- <form id="form" name="form" action="https://formspree.io/amymartin.artist@gmail.com" method="post">
+ <form method="POST" id="form" name="form" action="https://formspree.io/amymartin.artist@gmail.com">
   <h3>
     Your Name:
     <input type="text" id="yourname" name="from" size="66 em">
   </h3>
   <h3>
      Your Email:
-    <input type="email" id="email" name="email" size="66em">
+    <input type="email" id="email" name="email" placeholder="Your email" size="66em">
   </h3>
   <h3>
      Subject:
@@ -43,13 +43,13 @@
   <h3 class= "form-text" name="message">
   Message:
   </h3>
-  <textarea cols="50" rows="10"></textarea> 
+  <textarea name="message" placeholder="Type your message here" cols="50" rows="10"></textarea> 
     </div>
 	 <h5>
      
      
      
-     <a class="email"><input class="button" type="submit" value="Send"></a></h5>
+     <button type="submit">Send</button></h5>
 </form>
 <p></p>
 <p><a href="http://www.wikigallery.org/wiki/Main_Page">Fine Art Wiki Project</a></p>
