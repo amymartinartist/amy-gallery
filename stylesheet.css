@@ -181,6 +181,9 @@ footer p {
 	height: 224px;
 	width: 388px;
 }
+.horizontal {
+	padding-left: 0.5%;
+	}
 .horizontal_one {
 	padding-left: 2%;
 }
@@ -220,11 +223,16 @@ footer p {
 .button {
 	border-radius: 1em;
 	box-shadow: 2px 2px 2px #000;
-	margin-left: 100px;
-	padding: 5px;
+	margin-left: 200px;
+	padding: 10px;
 	color: #fff;
 	background-color: rgba(0,110,186,1.00);
 }
+.description {
+	margin-top: -25px;
+	padding-left: -10px;
+	font-size:16px;
+	}
 .form-text {
 	display: block;
 	float: left;
